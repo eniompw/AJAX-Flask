@@ -4,13 +4,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return '/ajax'
-
-@app.route('/ajax')
-def ajax():
     return render_template('ajax.html')
 
-@app.route('/bookingid')
-def bid():
+@app.route('/helloname')
+def hn():
     name = request.args.get('q', '')
     return 'hello ' + name
