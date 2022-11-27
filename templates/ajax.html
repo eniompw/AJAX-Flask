@@ -18,7 +18,7 @@ Name: <input id="input" >
     xhttp.onload = function() {
         log.textContent = this.responseText;
         }
-    xhttp.open("GET", "/data?name=" + name)
+    xhttp.open("GET", "/helloname?q="+name, true);
     xhttp.send()
   }
 </script>
