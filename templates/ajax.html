@@ -14,7 +14,7 @@ Name: <input id="input" onkeydown="enter(event)">
   function sendData() {
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
-      output.textContent = this.responseText;
+      output.innerHTML = this.responseText;
     }
     xhttp.open("GET", "/helloname?q=" + input.value, true);
     xhttp.send();
