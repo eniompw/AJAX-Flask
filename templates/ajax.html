@@ -3,12 +3,14 @@ Name: <input id="input" onkeydown="enter(event)">
 <p id="output"></p>
 
 <script>
+  // Click Button on Enter Key
   function enter(event){
     if (event.key === "Enter") {
       document.getElementById("myBtn").click();
     }
   }
 
+  // AJAX
   const input = document.getElementById("input");
   const output = document.getElementById('output');
   function sendData() {
