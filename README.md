@@ -12,6 +12,8 @@
 * [AJAX](https://github.com/eniompw/AJAX-Flask/blob/main/templates/stock.html)
 * [Flask](https://github.com/eniompw/AJAX-Flask/blob/main/stock.py)
 
+[More Examples](https://github.com/eniompw/DynamicFlask)
+
 ## Refs:
 * [W3 AJAX Example](https://web.archive.org/web/20210607235923/https://www.w3schools.com/js/js_ajax_intro.asp)
 * [W3 Trigger Button Click on Enter](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_trigger_button_enter)
